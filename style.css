@@ -1,0 +1,28 @@
+#list {
+	margin: 20px auto;
+	width: 600px;
+}
+.list__item {
+	position: relative;
+	background-color: rgb(41, 164, 201);
+	padding: 0 10px 10px;
+	border: 1px solid rgb(21, 29, 104);
+	position: relative;
+}
+h3 {
+	margin-bottom: 15px;
+}
+p {
+	margin: 0;
+}
+.list__cross {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid rgb(21, 29, 104);
+	border-radius: 50%;
+}
